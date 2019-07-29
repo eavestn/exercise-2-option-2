@@ -7,7 +7,7 @@
     <ProjectGuid>{6B95778D-6790-4197-B61B-F6136C93E899}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>StudentManagement.Esb.Clieant</RootNamespace>
-    <AssemblyName>StudentManagement.Esb.Clieant</AssemblyName>
+    <AssemblyName>StudentManagement.Esb.Client</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
