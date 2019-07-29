@@ -22,6 +22,8 @@ The solution itself is two Console Applications: `StudentManagement.Esb.Client` 
 for everything to function as expected. A command line argument `@user1` or `@user2` is then supplied to `*.Esb.Client`'s console and a corresponding
 event is processed (written to the console) by the architecturally-designated Service Provider `StudentManagement.Esb.ServiceProvider.CourseRegistrar`.
 
+In order to run this locally, you may also have to [enable local message queueing on your machine](https://docs.microsoft.com/en-us/dotnet/framework/wcf/samples/installing-message-queuing-msmq)
+
 ## Program Function
 
 `StudentManagement.Esb.Client`'s `Program.cs` functions as the ESB Service Requester: it publishes a message (command) of type `CreateNewStudent`

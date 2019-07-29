@@ -96,8 +96,14 @@
     <Reference Include="Shuttle.Core.Transactions, Version=10.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Shuttle.Core.Transactions.10.0.1\lib\net471\Shuttle.Core.Transactions.dll</HintPath>
     </Reference>
+    <Reference Include="Shuttle.Core.Uris, Version=10.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Shuttle.Core.Uris.10.0.4\lib\net471\Shuttle.Core.Uris.dll</HintPath>
+    </Reference>
     <Reference Include="Shuttle.Esb, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Shuttle.Esb.11.0.0\lib\net461\Shuttle.Esb.dll</HintPath>
+    </Reference>
+    <Reference Include="Shuttle.Esb.Msmq, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Shuttle.Esb.Msmq.11.0.0\lib\net461\Shuttle.Esb.Msmq.dll</HintPath>
     </Reference>
     <Reference Include="StructureMap, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StructureMap.4.7.1\lib\net45\StructureMap.dll</HintPath>

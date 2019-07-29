@@ -124,6 +124,9 @@
     <Reference Include="Shuttle.Esb, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Shuttle.Esb.11.0.0\lib\net461\Shuttle.Esb.dll</HintPath>
     </Reference>
+    <Reference Include="Shuttle.Esb.Msmq, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Shuttle.Esb.Msmq.11.0.0\lib\net461\Shuttle.Esb.Msmq.dll</HintPath>
+    </Reference>
     <Reference Include="Shuttle.Esb.RabbitMQ, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Shuttle.Esb.RabbitMQ.11.0.0\lib\net461\Shuttle.Esb.RabbitMQ.dll</HintPath>
     </Reference>
