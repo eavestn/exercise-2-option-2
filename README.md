@@ -1,5 +1,9 @@
 # Student Management Enterprise Service Bus (ESB) Implementation
 
+Below is a description of the local environment necessary to execute this project as well as a basic description of the 
+general flow of the program. This project was completed as a part of my time at Penn. State's Masters of Software Engineering
+program.
+
 ## Environment
 
 For this project, I wanted to make use of an open-source, non-proprietary service bus library to implement my own
@@ -18,7 +22,7 @@ The solution itself is two Console Applications: `StudentManagement.Esb.Client` 
 for everything to function as expected. A command line argument `@user1` or `@user2` is then supplied to `*.Esb.Client`'s console and a corresponding
 event is processed (written to the console) by the architecturally-designated Service Provider `StudentManagement.Esb.ServiceProvider.CourseRegistrar`.
 
-## Function
+## Program Function
 
 `StudentManagement.Esb.Client`'s `Program.cs` functions as the ESB Service Requester: it publishes a message (command) of type `CreateNewStudent`
 against the event system maintained by `*.Esb.Server`. `*Esb.Server`'s `Server.cs` functions as our ESB: it takes on any responsibility that
