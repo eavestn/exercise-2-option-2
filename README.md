@@ -14,5 +14,14 @@ be executed.
 You will also need to configure the appropriate connection string in the [`StudentManagement.Esb.Server`](./StudentManagement.Esb.Server) `App.config`
 file.
 
+The solution itself is two Console Applications: `StudentManagement.Esb.Client` and `StudentManagement.Esb.Server` that must be running concurrently
+for everything to function as expected. A command line argument `@user1` or `@user2` is then supplied to `*.Esb.Client`'s console and a corresponding
+event is processed (written to the console) by the architecturally-designated Service Provider `StudentManagement.Esb.ServiceProvider.CourseRegistrar`.
 
+## Function
+
+`StudentManagement.Esb.Client`'s `Program.cs` functions as the ESB Service Requester: it publishes a message (command) of type `CreateNewStudent`
+against the event system maintained by `*.Esb.Server`. `*Esb.Server`'s `Server.cs` functions as our ESB: it takes on any responsibility that
+might eventually be expected of a service bus. In our case, it translates the received `CreateNewStudent` command into a `NewStudentData` message
+(event) that is then processed by Service Provider `*.Esb.ServiceProvider.CourseRegistrar`.
 
