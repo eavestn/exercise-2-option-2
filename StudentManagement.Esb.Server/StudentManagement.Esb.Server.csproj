@@ -446,7 +446,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Host.cs" />
+    <Compile Include="Server.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

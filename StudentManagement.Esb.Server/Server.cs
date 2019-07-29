@@ -10,7 +10,7 @@ namespace StudentManagement.Esb.Server
     /// apparent at what stages I am interacting with classes made available from the 
     /// use of the library.
     /// </remarks>
-    public class Host : IServiceHost
+    public class Server : IServiceHost
     {
         private Shuttle.Esb.IServiceBus _serviceBus;
 
