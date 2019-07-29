@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentManagement.Esb.Messages.Events
 {
-    public class NewStudetData
+    public class NewStudentData
     {
         public int StudentId { get; set; }
         public string Name { get; set; }

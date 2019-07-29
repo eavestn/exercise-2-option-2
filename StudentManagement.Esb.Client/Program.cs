@@ -16,8 +16,9 @@ namespace StudentManagement.Esb.Client
             // We aren't doing anything with thie variable; but - theoretically - we could should we want 
             // to do some postprocessing prior to application exit.
             var registrar = 
-                new StudentRegistrar(new StructureMapComponentResolver(new Container(smRegistry)))
-                    .Start();
+                new StudentRegistrar(
+                    new StructureMapComponentResolver(new Container(smRegistry))
+                ).Start();
         }
     }
 }
